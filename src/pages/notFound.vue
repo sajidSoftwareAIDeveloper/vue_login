@@ -1,6 +1,6 @@
 <script setup>
 import router from '@/router';
-import Button_s from '@/views/button_s.vue';
+import button_s from '@/views/button_s.vue';
 // import { onMounted } from 'vue';
 
 
@@ -17,7 +17,7 @@ import Button_s from '@/views/button_s.vue';
 <template>
     <div class="error">
         <h1>page not found</h1>
-        <Button_s :action-handle="gotologin" :action-name="'home'"/>
+        <button_s :action-handle="gotologin" :action-name="'home'"/>
     </div>
 </template>
 
