@@ -1,6 +1,8 @@
+
+/* eslint-disable vue/multi-word-component-names */
 <script setup>
-    import {store}  from './store'
-    import { onMounted, ref } from 'vue';
+    // import {store}  from './store'
+    import { ref ,onMounted} from 'vue';
     import bothFileCamera from './bothFileCamera.vue';
     import formPage from './formPage.vue';
     import button_s from './button_s.vue';
@@ -28,6 +30,7 @@
    
 </script>
 
+<!-- <script setup lang="js"></script> -->
 <template>
     <div class="show_body">
         <formPage :triggerFormPageAction="formAction" />

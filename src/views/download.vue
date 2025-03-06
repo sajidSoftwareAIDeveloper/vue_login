@@ -1,7 +1,7 @@
+
 <script setup>
 import { ref } from 'vue';
-import Button_s from './button_s.vue';
-
+// import button_s from './button_s.vue';
 
     const {url}=defineProps({
         url:String

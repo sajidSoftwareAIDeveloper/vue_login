@@ -1,5 +1,5 @@
 <script setup>
-    import button_s from '@/views/button_s.vue';
+    import button_s from '@/views/button_s.vue'
     import selectOption from '@/views/selectOption.vue';
     import { store } from '@/views/store';
     import router from '@/router';

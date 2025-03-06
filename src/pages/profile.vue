@@ -1,5 +1,5 @@
 <script setup>
-    import { store } from '@/views/store';
+    // import { store } from '@/views/store';
     import { ref ,onMounted } from 'vue';
 
 

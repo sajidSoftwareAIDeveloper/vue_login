@@ -1,9 +1,9 @@
 <script setup>
    import selectOption from '@/views/selectOption.vue';
    import button_s from '@/views/button_s.vue';
-    import router from '@/router';
-    import { ref } from 'vue';
-    import { store } from '@/views/store';
+   import router from '@/router';
+   import { ref } from 'vue';
+   import { store } from '@/views/store';
 
     const data=ref(null);
 

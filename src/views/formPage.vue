@@ -78,7 +78,7 @@
 
             case 'pa': 
                 if( value.password.length>8 && 
-                    /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]).{8,}$/.test(value.password)
+                    /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).{8,}$/.test(value.password)
                 ){value.isValid[4]=1} 
                 else {value.isValid[4]=0}
                 break;
@@ -92,6 +92,9 @@
 <template>
 
     <div>
+        <div style="color: white;">
+            <h1>Registration Form</h1>
+        </div>
         <div>
             <fieldset class="fieldset"  :class="value.isValid[0]==undefined?'no':value.isValid[0]==1?'right':'wrong'">
                 <legend v-if="value.firstName" class="legend" >first name</legend>
@@ -110,7 +113,7 @@
         </div>
 
         <div>
-            <fieldset class="fieldset":class="value.isValid[2]==undefined?'no':value.isValid[2]==1?'right':'wrong'" >
+            <fieldset class="fieldset" :class="value.isValid[2]==undefined?'no':value.isValid[2]==1?'right':'wrong'" >
                 <legend v-if="value.phone" class="legend">phone</legend>
                 <input type="text" id="phone" placeholder="phone"
                 v-model="value.phone"

@@ -1,7 +1,7 @@
-<script setup>
+<!-- <script setup>
     import {ref}  from 'vue'
-    import button_s from './button_s.vue';
-    import { store } from './store';
+    // import button_s from './button_s.vue';
+    // import { store } from './store';
   
     const fileInput = ref();
     const imagePreview = ref();
@@ -59,4 +59,4 @@ function openHandel(event){
     padding: -20px;
   }
 </style>
-
+ -->

@@ -1,7 +1,7 @@
 <script setup>
 import router from '@/router';
 import Button_s from '@/views/button_s.vue';
-import { onMounted } from 'vue';
+// import { onMounted } from 'vue';
 
 
 

@@ -1,6 +1,6 @@
 <script setup>
-   import Download from '@/views/download.vue';
-import { store } from '@/views/store';
+    import download from '@/views/download.vue';
+    // import { store } from '@/views/store';
     import { ref,onMounted } from 'vue';
     const session=ref([null,null]);
 
@@ -18,13 +18,13 @@ import { store } from '@/views/store';
 
             <div class="icon_image">
                 <img :src="session[0]" alt="no" class="image"/>
-               <div class="download1"><Download :url="session[0]"/> </div> 
+               <div class="download1"><download :url="session[0]"/> </div> 
             </div>
 
             <div class="icon_image">
                 <img :src="session[1]" alt="no" class="image"/>
-                <div class="download1">
-                     <Download :url="session[0]"/>
+                <div class="download2">
+                     <download :url="session[1]"/>
                </div> 
             </div>
         </div>
@@ -49,7 +49,7 @@ import { store } from '@/views/store';
     .images{
         display: flex;
     }
-    .download1{
+    .download1, .download2{
          margin-left: -40px;
          margin-top:20px;
     }

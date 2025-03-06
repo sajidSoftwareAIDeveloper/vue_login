@@ -1,5 +1,5 @@
- <script setup>
-  import { ref, onMounted, onUnmounted, onUpdated } from "vue";
+ <!-- <script setup>
+  import { ref} from "vue";
   
   const video = ref(null);
   const canvas = ref(null);
@@ -97,4 +97,4 @@
     margin-top: -6px;
   }
 </style>
-  
+   -->

@@ -1,6 +1,6 @@
 <script setup>
     import router from '@/router';
-    import { store } from '@/views/store';
+    // import { store } from '@/views/store';
     import { onMounted, ref } from 'vue';
 
     const session=ref(null);
