@@ -6,7 +6,7 @@ import first from '@/pages/first.vue';
 import secound from '@/pages/secound.vue';
 import final from '@/pages/final.vue';
 import profile from '@/pages/profile.vue';
-import notFound from '@/pages/NotFound.vue';
+import notFound from '@/pages/notFound.vue';
 
 const routes = [
   { path: '/', name: 'show', component: show },
