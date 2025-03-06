@@ -131,7 +131,7 @@
         <div>
             <fieldset class="fieldset" :class="value.isValid[4]==undefined?'no':value.isValid[4]==1?'right':'wrong'">
                 <legend v-if="value.password" class="legend">password</legend>
-                <input type="text" id="password" placeholder="password"
+                <input type="password" id="password" placeholder="password"
                  v-model="value.password"
                   @input="passwordHandle" 
                   @change="()=>validateHandle('pa')"/>
